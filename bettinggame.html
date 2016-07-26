@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Betting Game</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/application.css">
+  <script type="text/javascript" src="script/jquery-3.1.0.min.js"></script>
+  <script type="text/javascript" src="script/application.js"></script>
+</head>
+<body>
+  <div id="rules">
+    <header><h1>Welcome to "The Betting Game"</h1></header>
+    <ol>
+      <li>Place a bet between $5 and $10</li>
+      <li>Guess a number between 1 and 10</li>
+      <li>Profit...hopefully...</li>
+    </ol>
+  </div>
+
+  <div id="game">
+    <input type="text" name="bet" class="game-input" id="bet" placeholder="Bet">
+    <input type="text" name="guess" class="game-input" id="guess" placeholder="Guess">
+    <br>
+    <button type="button" class="game-component" id="play">Play!</button>
+    <button type="button" class="game-component" id="reset">Reset</button>
+    <div id="player-bank">
+      <p id="game-msg"></p>
+    </div>
+  </div>
+</body>
+</html>

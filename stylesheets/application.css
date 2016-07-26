@@ -1,0 +1,33 @@
+#game {
+  padding: 2em;
+  text-align: center;
+}
+
+.game-component {
+  margin: 1em;
+}
+
+header {
+  text-align: center;
+}
+
+#reset {
+  display: none;
+}
+
+#rules {
+  text-align: left;
+}
+
+/* MESSAGE STYLING */
+.success {
+  color: green;
+}
+
+.neutral {
+  color: yellow;
+}
+
+.error {
+  color: red;
+}
